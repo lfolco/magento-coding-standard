@@ -1,4 +1,7 @@
-module.exports = {
+// Import utils using ES module syntax
+import utils from './utils.js';
+
+export default {
     meta: {
         type: 'suggestion',
         docs: {
@@ -21,8 +24,6 @@ module.exports = {
      */
     create: function (context) {
         'use strict';
-
-        var utils = require('./utils.js');
 
         return {
             /**

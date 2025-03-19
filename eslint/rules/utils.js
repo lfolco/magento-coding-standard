@@ -116,7 +116,7 @@ function isjQuery(node) {
     return id && jQueryId && id.name === jQueryId.name;
 }
 
-module.exports = {
+export default {
     traverse: getExpressionId,
     isjQuery: isjQuery
 };
