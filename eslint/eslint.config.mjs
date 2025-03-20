@@ -13,6 +13,12 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 export default defineConfig([{
+    extends: compat.extends(
+        "./.eslintrc-reset",
+        "./.eslintrc-magento",
+        "./.eslintrc-jquery",
+        "./.eslintrc-misc",
+    ),
     plugins: {
         "magento-coding-standard-eslint-plugin": magentoCodingStandardEslintPlugin,  // This is in flat config format (object)
     },
