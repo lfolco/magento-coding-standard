@@ -2,6 +2,8 @@
   // http://eslint.org/docs/rules/
 
   "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
     "ecmaFeatures": {
       "binaryLiterals": false,                    // enable binary literals
       "blockBindings": false,                     // enable let and const (aka block bindings)
@@ -22,6 +24,7 @@
   },
 
   "env": {
+    "es2020": true,
     "browser": false,     // browser global variables.
     "node": false,        // Node.js global variables and Node.js-specific rules.
     "amd": false,         // defines require() and define() as global variables as per the amd spec.
