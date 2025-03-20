@@ -10,6 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "~9.22.0",
-    "magento-coding-standard-eslint-plugin": "file:eslint/index.js"
+    "magento-coding-standard-eslint-plugin": "file:./eslint"
   }
 }
