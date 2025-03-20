@@ -21,16 +21,5 @@ export default defineConfig([{
     ),
     plugins: {
         "magento-coding-standard-eslint-plugin": magentoCodingStandardEslintPlugin,  // This is in flat config format (object)
-    },
-    rules: {
-        "magento-coding-standard-eslint-plugin/jquery-no-andSelf": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-bind-unbind": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-delegate-undelegate": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-deprecated-expr": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-event-shorthand": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-input-event-shorthand": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-misc-deprecated-functions": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-size": "warn",
-        "magento-coding-standard-eslint-plugin/jquery-no-trim": "warn",
-    },
+    }
 }]);
