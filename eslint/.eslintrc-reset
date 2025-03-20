@@ -2,8 +2,6 @@
   // http://eslint.org/docs/rules/
 
   "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module",
     "ecmaFeatures": {
       "binaryLiterals": false,                    // enable binary literals
       "blockBindings": false,                     // enable let and const (aka block bindings)
@@ -24,9 +22,8 @@
   },
 
   "env": {
-    "es2020": true,
     "browser": false,     // browser global variables.
-    "node": true,        // Node.js global variables and Node.js-specific rules.
+    "node": false,        // Node.js global variables and Node.js-specific rules.
     "amd": false,         // defines require() and define() as global variables as per the amd spec.
     "mocha": false,       // adds all of the Mocha testing global variables.
     "jasmine": false,     // adds all of the Jasmine testing global variables for version 1.3 and 2.0.
@@ -47,7 +44,7 @@
   "rules": {
     ////////// Possible Errors //////////
 
-    "no-comma-dangle": "off",     // disallow trailing commas in object literals
+    "no-comma-dangle": 0,         // disallow trailing commas in object literals
     "no-cond-assign": 0,          // disallow assignment in conditional expressions
     "no-console": 0,              // disallow use of console (off by default in the node environment)
     "no-constant-condition": 0,   // disallow use of constant expressions in conditions
