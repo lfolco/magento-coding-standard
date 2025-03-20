@@ -23,8 +23,6 @@ export default {
      * @returns {Object}
      */
     create: function (context) {
-        'use strict';
-
         return {
             /**
              * Checks if bind and unbind are used in the node and reports it.

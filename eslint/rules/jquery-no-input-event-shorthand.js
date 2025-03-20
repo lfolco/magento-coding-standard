@@ -20,8 +20,6 @@ export default {
      * @returns {Object}
      */
     create: function (context) {
-        'use strict';
-
         return {
             /**
              * Checks if shortcuts are used to trigger events and reports it.

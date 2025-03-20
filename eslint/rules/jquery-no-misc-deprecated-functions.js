@@ -20,8 +20,6 @@ export default {
      * @returns {Object}
      */
     create: function (context) {
-        'use strict';
-
         return {
             /**
              * Checks if deprecated methods are used and reports it.
