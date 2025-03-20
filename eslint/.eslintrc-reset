@@ -22,6 +22,8 @@
   },
 
   "env": {
+    "node": true,
+    "es2020": true,
     "browser": false,     // browser global variables.
     "node": false,        // Node.js global variables and Node.js-specific rules.
     "amd": false,         // defines require() and define() as global variables as per the amd spec.
@@ -44,7 +46,7 @@
   "rules": {
     ////////// Possible Errors //////////
 
-    "no-comma-dangle": "off",         // disallow trailing commas in object literals
+    "no-comma-dangle": 0,         // disallow trailing commas in object literals
     "no-cond-assign": 0,          // disallow assignment in conditional expressions
     "no-console": 0,              // disallow use of console (off by default in the node environment)
     "no-constant-condition": 0,   // disallow use of constant expressions in conditions
