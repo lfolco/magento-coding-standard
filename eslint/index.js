@@ -1,4 +1,7 @@
-// Import individual rule files as modules
+/**
+ * ESLint Plugin for jQuery Deprecation Rules
+ * This module aggregates individual jQuery-related rules into a single .
+ */
 import jqueryNoAndSelf from './rules/jquery-no-andSelf.js';
 import jqueryNoBindUnbind from './rules/jquery-no-bind-unbind.js';
 import jqueryNoDelegateUndelegate from './rules/jquery-no-delegate-undelegate.js';
